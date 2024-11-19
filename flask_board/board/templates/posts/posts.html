@@ -10,6 +10,6 @@
             <p class="message">{{ post["message"] }}</p>
             <aside>Posted by {{ post["author"] }} on {{ post["created"].strftime("%b %d, %Y at %I:%M%p") }}</aside>
         </article>
-    {$ endfor %}
+    {% endfor %}
 
 {% endblock content %}
